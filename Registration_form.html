@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script type="text/javascript" src="./ext.js"></script>
+    <div class="Registration_form-outer">
+        <div class="Registration_form-inner">
+            <h1>
+                REGISTRATION FORM
+            </h1>
+            <div class="form_elements">
+            <form action="" onsubmit="return validate(event)" name="form">
+                 <label>Name:<span id="red">*</span></label>
+                 <div class="text_box"><input type="text" name="name"><br></div>
+                 <label>Contact number:<span id="red">*</span></label>
+                 <div class="text_box"><input type="text" name="contact-number"><br><span id="numloc"></span></div>
+                 <label>Email Address:<span id="red">*</span></label>
+                 <div class="text_box"><input type="email" name="emailid" id=""><br><span id="emailloc"></span></div>
+                 <label>Age:<span id="red">*</span></label>
+                 <div class="text_box"><input type="text" name="age"><br><span id="ageloc"></span></div>
+                 <label>Location:<span id="red">*</span></label>
+                 <div class="text_box"><input type="text" name="location"><br></div>
+                 <label>College name:</label>
+                 <div class="text_box"><input type="text" name="college"><br></div>
+                 <label>Sex:</label>
+                 <div class="text_box"><select name="sex" id="">
+                    <option value="default">default</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="others">others</option>
+                 </select><br></div>
+                 <label>Get you best photograph upload here:</label>
+                 <div class="file_box"><input type="file" name="fileToUpload" id="filesize"></div>
+                <div class="submit_box"><input type="submit" value="Register" name="submit"></div>
+            </form>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- -->

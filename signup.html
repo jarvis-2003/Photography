@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup</title>
+</head>
+<body>
+    <script src="./ext.js"></script>
+    <div class="signUp-section">
+        <div class="signup_main">
+
+            <form action="./index.html" name="Signup_form" class="form_signup" onsubmit="return validateSignup(event)" method="post">
+            <div class="Inner_Signup_form">
+                <input type="text" placeholder="Enter one username" name="username">
+                <br>
+                <input type="text" name="spnumber" id="" placeholder="enter phone number">
+                <span id="numlock" style="color: red;"> </span>
+                <br>
+                <input type="password" name="password" id="pass1" placeholder="enter password">
+                <br>
+                <input type="password" name="confpass" id="pass2" placeholder="confirm password">
+                <br>
+                <div class="show_pass"><label>show password</label> <input type="checkbox" onclick="show_pass()" style="height: 15px; margin-top:4px; margin-left:5px;"></div>
+                <span id="validate_pass" style="color: red;"> </span>
+                <button type="submit">Signup</button>
+            </div>
+            </form>
+    
+        </div>
+    </div>
+</body>
+</html>

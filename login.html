@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <script src="./ext.js"></script>
+    <div class="login_inner">
+      <div class="login_innertwo">
+        <form class="login_content" action="./index.html" name="login_form" onsubmit="return validatelogin()" method="post">
+          <div class="login_login"><h1>LOGIN</h1></div>
+          <input type="text" name="username" placeholder="Enter your username">
+          <input type="password" name="password" id="" placeholder="Enter your Password">
+          <span id="pass" style="font-size: smaller;color: red;">
+          </span>
+          <button type="submit" class="login_button">login</button>
+          <a href="" class="forget_pass"> Forget password ?</a>
+          <p class="new_user"><span>new user?</span><a href="./signup.html">signup here</a></p>
+        </form>
+      </div>
+    </div>
+</body>
+</html>
+
